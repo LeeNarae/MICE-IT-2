@@ -1,6 +1,18 @@
 
 	//정적(Static) 클래스
 
+	// Hello world 출력
+
+	var helloStatic = {
+			hello: function() {
+				console.log("Hello world");
+			}
+	}
+	
+	helloStatic.hello();
+
+
+
 	// 1부터 100까지 출력	
 
 	var guguStatic = {
