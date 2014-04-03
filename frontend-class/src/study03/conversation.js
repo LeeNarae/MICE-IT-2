@@ -33,10 +33,15 @@ function Phone(option) {
 	}
 
 function IPhone(){
-	
+	this.model = "IPhone",
+	this.color = "White",
+	this.price = "1"
 }
 
 function Android(){
+	this.model = "Galaxy",
+	this.color = "White",
+	this.price = "1"
 	
 }
 
