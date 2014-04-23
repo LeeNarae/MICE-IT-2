@@ -1,0 +1,15 @@
+
+ul, li {list-style:none; margin:0; padding:0; font-size:10pt; }
+
+.image_list {clear:both;overflow: hidden;position: relative;height: 250px;width: 600px; border:1px solid #e1e1e1; cursor:pointer;}
+.image_list .images {position:absolute; display:none; }
+
+.tab {width:600px;cursor:pointer;}
+.tab li {width:70px;float:left;border-right:1px solid #e1e1e1;border-top:1px solid #e1e1e1;padding:7px;}
+.tab li.fir {border-left:1px solid #e1e1e1;}
+
+.tab_icon {width:600px;cursor:pointer;}
+.tab_icon li {float:left;}
+
+.tab li.tabOutClass {font-weight:normal;color:black;background-color:white}
+.tab li.tabOverClass {font-weight:bold;color:blue;background-color:white;}
